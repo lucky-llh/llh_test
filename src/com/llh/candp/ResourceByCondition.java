@@ -8,6 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 基于Condition实现消费者生产者模式
  */
 public class ResourceByCondition {
+
     //商品名
     private String name;
     //数量

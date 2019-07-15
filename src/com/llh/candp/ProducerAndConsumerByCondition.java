@@ -4,6 +4,7 @@ package com.llh.candp;
  * 测试主类
  */
 public class ProducerAndConsumerByCondition {
+
     public static void main(String[] args) {
         ResourceByCondition condition=new ResourceByCondition();
         Producer producer=new Producer(condition);
